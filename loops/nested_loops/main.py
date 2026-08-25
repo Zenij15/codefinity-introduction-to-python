@@ -4,6 +4,7 @@ dairy   = ["Milk", "Cheese"]
 # Combine into a list of two sections
 groceries = [produce, dairy]
 
+#Loop each item
 for section in groceries:
     for item in section:
         print("Item Name:", item)
